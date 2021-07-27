@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">EGS-AMK</string>
+    <string name="amk_office">AMK Office</string>
+    <string name="masuk">Masuk</string>
+    <string name="login_info">Info: Masukkan akun KINERJA anda sebagai nama pengguna.</string>
+    <string name="nama_pengguna">Nama Pengguna</string>
+    <string name="kata_sandi">Kata Sandi</string>
+    <string name="lupa_kata_sandi_anda">Lupa Kata Sandi Anda?</string>
+    <string name="ingatkan_saya">Ingatkan Saya</string>
+    <string name="copyright_2020">Copyright © 2020</string>
+    <string name="pallaka_studio">PALLAKA STUDIO</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nama">Nama Pengguna</string>
+    <string name="jabatan">Jabatan</string>
+    <string name="panduan_amk_office">Panduan AMK Office</string>
+    <string name="panduan_description">Panduan ini dapat diunduh untuk dipelajari</string>
+    <string name="unduh_di_sini">Unduh di sini</string>
+    <string name="dashboard_text">Dashboard</string>
+    <string name="notification_text">Notification</string>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nomor Spesifik"
+        android:id="@+id/et_NomorSpesifik"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jenis Aset Tetap"
+        android:id="@+id/et_JenisAsetTetap"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Merek"
+        android:id="@+id/et_Merek"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Spesifikasi"
+        android:id="@+id/et_Spesifikasi"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jumlah"
+        android:id="@+id/et_Jumlah"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tahun"
+        android:id="@+id/et_Tahun"
+        />
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+       <ImageView
+           android:layout_width="150dp"
+           android:layout_height="150dp"
+           android:src="@drawable/ic_android_black_24dp"
+           android:id="@+id/iv_uphoto"/>
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="100dp"
+           android:layout_gravity="center"
+           android:text="Upload"
+           android:id="@+id/btn_image"
+           />
+   </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Save"
+        android:id="@+id/btn_add_user"/>
+
+
+</LinearLayout>
