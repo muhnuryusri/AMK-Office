@@ -1,10 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item
-        android:id="@+id/notification"
-        android:title="@string/notification_text"
-        android:actionLayout="@layout/activity_dashboard"
-        app:showAsAction="ifRoom"
-        android:icon="@drawable/icon_notification"/>
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/icon_dashboard"
+            android:iconTint="@color/dark_blue_2"
+            android:title="@string/menu_dashboard" />
+        <item
+            android:id="@+id/nav_manajemen_kegiatan"
+            android:icon="@drawable/icon_manajemen_kegiatan"
+            android:iconTint="@color/dark_blue_2"
+            android:title="@string/menu_manajemen_kegiatan" />
+        <item
+            android:id="@+id/nav_aktivitas"
+            android:icon="@drawable/icon_aktivitas"
+            android:iconTint="@color/dark_blue_2"
+            android:title="@string/menu_aktivitas" />
+        <item
+            android:id="@+id/nav_profil"
+            android:icon="@drawable/icon_profil"
+            android:iconTint="@color/dark_blue_2"
+            android:title="@string/menu_profil" />
+        <item
+            android:id="@+id/nav_tentang"
+            android:icon="@drawable/icon_tentang"
+            android:iconTint="@color/dark_blue_2"
+            android:title="@string/menu_tentang" />
+    </group>
 </menu>

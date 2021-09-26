@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_dashboard">
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.application.egs_amk.FragmentDashboard"
+        android:label="@string/menu_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/nav_manajemen_kegiatan"
+        android:name="com.application.egs_amk.FragmentManajemenKegiatan"
+        android:label="@string/menu_manajemen_kegiatan"
+        tools:layout="@layout/fragment_manajemen_kegiatan" />
+
+    <fragment
+        android:id="@+id/nav_aktivitas"
+        android:name="com.application.egs_amk.FragmentAktivitas"
+        android:label="@string/menu_aktivitas"
+        tools:layout="@layout/fragment_aktivitas" />
+
+    <fragment
+        android:id="@+id/nav_profil"
+        android:name="com.application.egs_amk.FragmentProfil"
+        android:label="@string/menu_profil"
+        tools:layout="@layout/fragment_profil" />
+
+    <fragment
+        android:id="@+id/nav_tentang"
+        android:name="com.application.egs_amk.FragmentTentang"
+        android:label="@string/menu_tentang"
+        tools:layout="@layout/fragment_tentang" />
+</navigation>

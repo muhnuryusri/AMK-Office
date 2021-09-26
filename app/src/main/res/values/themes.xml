@@ -19,6 +19,25 @@
         <item name="android:windowLightStatusBar">true</item>
     </style>
 
+    <style name="NavigationDrawer">
+        <item name="colorPrimary">@color/dark_blue_2</item>
+        <item name="colorSecondary">@color/indigo_blue</item>
+        <item name="android:textColor">@color/dark_blue_2</item>
+        <item name="android:fontFamily">@font/nunito_regular</item>
+        <item name="android:textSize">20sp</item>
+        <item name="listPreferredItemHeightSmall">60dp</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/drawer_list_selector</item>
+    </style>
+
+    <style name="AppBar" parent="Theme.EGSAMK">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorSecondary">@color/white</item>
+        <item name="android:fontFamily">@font/nunito_regular</item>
+        <item name="android:textSize">20sp</item>
+        <item name="listPreferredItemHeightSmall">60dp</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/drawer_list_selector</item>
+    </style>
+
     <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="25dp"
+    android:background="@color/indigo_blue"
+    android:orientation="horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:paddingTop="20dp"
+        android:layout_marginEnd="18dp"
+        android:src="@drawable/profile_picture_placeholder"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nama_lengkap"
+            android:fontFamily="@font/nunito_semi_bold"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:textAllCaps="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jabatan"
+            android:fontFamily="@font/nunito_regular"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+</LinearLayout>
